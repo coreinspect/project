@@ -1,0 +1,28 @@
+.user-home-dashboard {
+  width: 100%;
+  background: var(--white);
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-white);
+}
+.user-home-container {
+  display: flex;
+  padding: 0.3rem 0.4rem;
+}
+.user-home-profile {
+  display: flex;
+  width: 100px;
+  padding-right: 0.8rem;
+  object-fit: cover;
+  object-position: center;
+  border-right: 1px solid #a6a6a6;
+}
+
+.user-home-profile img {
+  height: auto;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  max-height: calc(50vh + 180px);
+  border-radius: var(--radius);
+}

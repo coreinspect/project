@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--black);
+  font-family: var(--poppins);
+}
+
+@media screen and (max-width: 1300px) {
+  .header-container {
+    margin-top: 0 !important;
+  }
+  .header {
+    border-radius: 0 !important;
+  }
+}

@@ -1,0 +1,45 @@
+/* Max 1280 */
+@media screen and (max-width: 1280px) {
+}
+
+/* Max 1024 */
+@media screen and (max-width: 1024px) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      'article rightsidebar'
+      'leftsidebar leftsidebar';
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .left-sidebar-main {
+    grid-area: leftsidebar;
+    width: 100%;
+  }
+
+  .article-main {
+    grid-area: article;
+  }
+
+  .right-sidebar-main {
+    grid-area: rightsidebar;
+    background-color: aquamarine;
+  }
+}
+
+/* Max 768 */
+@media screen and (max-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-areas:
+      'article article'
+      'rightsidebar rightsidebar'
+      'leftsidebar leftsidebar' !important;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+}
+
+/* Max 640 */
+@media screen and (max-width: 640px) and (min-width: 400px) {
+}
