@@ -1,6 +1,6 @@
 .rightcontainer {
-  width: 16rem;
-
-  background-color: var(--white);
-  height: max-content;
+   width: 16rem;
+   position: relative;
+   background-color: var(--white);
+   height: max-content;
 }
