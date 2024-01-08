@@ -26,3 +26,32 @@
   max-height: calc(50vh + 180px);
   border-radius: var(--radius);
 }
+
+.user-home-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 1rem;
+}
+
+.user-home-info {
+  width: 18rem;
+  text-align: center;
+}
+
+.user-home-name {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.user-home-status {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.6rem;
+  font-weight: 900;
+  color: var(--white);
+  background: var(--green);
+  width: max-content;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
