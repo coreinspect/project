@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './css/hero.css';
 import './css/responsiveness.css';
 const Hero = () => {
@@ -12,8 +13,13 @@ const Hero = () => {
         <span>#CodeAndConnect</span>
       </p>
       <div className="hero-btn">
-        <button className="getstarted">Get Started</button>
-        <button className="signin-hero">Sign In</button>
+        <Link to={`/register`}>
+          <button className="getstarted">Get Started</button>
+        </Link>
+
+        <Link to={`/login`}>
+          <button className="signin-hero">Sign In</button>
+        </Link>
       </div>
     </section>
   );

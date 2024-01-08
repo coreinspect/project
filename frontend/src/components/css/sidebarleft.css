@@ -36,6 +36,7 @@
   font-size: 0.85rem;
   padding: 0 1rem;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .sidebar-items span {
