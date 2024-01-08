@@ -1,0 +1,38 @@
+.tos-area {
+  flex: 1;
+}
+
+.tos-content {
+  margin: 0 1.5rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+}
+
+.tos-span {
+  display: block;
+  font-weight: 900;
+  font-size: 1.1rem;
+  padding: 0.8rem 0;
+}
+
+.tos-h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.tos-date {
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.tos-p3 ul {
+  list-style: bullet;
+}
+
+.tos-p3 ul li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}

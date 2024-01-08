@@ -7,6 +7,7 @@
   .main {
     display: grid;
     grid-template-areas:
+      'fullwidth fullwidth'
       'article rightsidebar'
       'leftsidebar leftsidebar';
     grid-template-columns: 2fr 1fr;
@@ -25,6 +26,15 @@
     grid-area: rightsidebar;
     background-color: aquamarine;
   }
+
+  .register-container {
+    grid-area: fullwidth;
+    margin-bottom: 2rem;
+  }
+
+  .tos-area {
+    grid-area: article;
+  }
 }
 
 /* Max 768 */
@@ -37,6 +47,10 @@
       'leftsidebar leftsidebar' !important;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+  }
+
+  .register-container {
+    grid-area: article;
   }
 }
 

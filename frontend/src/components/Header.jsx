@@ -17,6 +17,7 @@ import {
 } from '@heroicons/react/20/solid';
 
 import './css/header.css';
+import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -68,10 +69,12 @@ function Header() {
         className="header shadow-md shadow-gray-600/50  rounded-lg mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
         aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src={images.Logo} alt="logo" />
-          </a>
+          <Link to={'/'}>
+            <button className="-m-1.5 p-1.5">
+              <span className="sr-only">CodeDiv</span>
+              <img className="h-8 w-auto" src={images.Logo} alt="logo" />
+            </button>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -159,16 +162,16 @@ function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
-            href="#"
-            className=" text-sm py-2 px-4 font-semibold leading-6  text-[var(--white)] hover:bg-[var(--white)] hover:text-[var(--mint)] hover:rounded-lg mr-3 hover:transition hover:duration-300">
-            Sign Up
-          </a>
-          <a
-            href="#"
-            className="text-sm py-2 px-4 font-semibold leading-6 bg-[var(--mint)] text-[var(--black)] rounded-lg">
-            Sign In <span aria-hidden="true">&rarr;</span>
-          </a>
+          <Link to="/register">
+            <button className=" text-sm py-2 px-4 font-semibold leading-6  text-[var(--white)] hover:bg-[var(--white)] hover:text-[var(--mint)] hover:rounded-lg mr-3 hover:transition hover:duration-300">
+              Register
+            </button>
+          </Link>
+          <Link to="/login">
+            <button className="text-sm py-2 px-4 font-semibold leading-6 bg-[var(--mint)] text-[var(--black)] rounded-lg">
+              Login <span aria-hidden="true">&rarr;</span>
+            </button>
+          </Link>
         </div>
       </nav>
       <Dialog
@@ -241,7 +244,7 @@ function Header() {
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  Sign In
+                  Login
                 </a>
               </div>
             </div>
