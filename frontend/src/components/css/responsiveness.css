@@ -42,6 +42,11 @@
    .sidebar-items li {
       font-size: 0.7rem !important;
    }
+
+   .rightcontainer {
+      max-width: 100% !important;
+      margin-right: 1rem;
+   }
 }
 
 /* Max 768 */
@@ -67,22 +72,9 @@
       font-size: 0.6rem !important;
       padding: 0 !important;
    }
-}
-
-/* Max 640 */
-@media screen and (max-width: 640px) {
-   .hero {
-      margin-left: 3rem !important;
-      margin-right: 3rem !important;
-      font-size: 0.9rem !important;
-   }
-
-   .hero span {
-      font-size: 0.6rem !important;
-   }
-   .getstarted,
-   .signin-hero {
-      font-size: 0.8rem;
+   .rightcontainer {
+      width: 85% !important;
+      margin: 0 auto;
    }
 }
 
@@ -90,6 +82,9 @@
    .hero {
       margin-left: 0.89rem !important;
       margin-right: 0.89rem !important;
+   }
+   .hero span {
+      font-size: 0.6rem !important;
    }
 
    .article-description {
@@ -116,6 +111,10 @@
 
    .user-home-profile {
       width: 200px !important;
+   }
+   .getstarted,
+   .signin-hero {
+      font-size: 0.8rem;
    }
 }
 

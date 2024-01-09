@@ -1,0 +1,8 @@
+.main-container {
+   position: relative;
+   flex: 1;
+   margin: 0 1.5rem;
+}
+.main-container > * {
+   flex: 1;
+}

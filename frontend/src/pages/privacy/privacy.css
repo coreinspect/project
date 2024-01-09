@@ -1,44 +1,46 @@
-.tos-area {
+.privacy-area {
    flex: 1;
    margin-bottom: 2rem;
 }
 
-.tos-content {
+.privacy-content {
    margin: 0 1.5rem;
    background: var(--white);
    border-radius: var(--radius);
    padding: 0.5rem 1rem;
 }
 
-.tos-span {
+.privacy-span {
    display: block;
-   font-weight: 900;
-   font-size: 1.1rem;
+   font-weight: 600;
+   font-size: 1rem;
    padding: 0.8rem 0;
 }
 
-.tos-h1 {
+.privacy-h1 {
    font-size: 2rem;
    text-align: center;
    font-weight: 600;
    padding: 1rem 0;
 }
 
-.tos-date {
+.privacy-date {
    font-weight: 600;
    padding: 1rem 0;
 }
 
-.tos-p3 ul {
-   list-style: bullet;
+.privacy-post {
+   font-size: 0.9rem;
+   margin-left: 0.8rem;
 }
 
-.tos-p3 ul li {
-   list-style-type: disc;
-   margin-left: 2rem;
+.privacy-title {
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: 1rem;
 }
 
-.tos-consent {
-   padding-top: 2rem;
+.privacy-consent {
+   margin-top: 2rem;
    font-weight: 600;
 }
