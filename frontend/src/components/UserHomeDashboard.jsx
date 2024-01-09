@@ -20,7 +20,7 @@ const UserHomeDashboard = () => {
                   <div className="user-home-btn">
                      <button className="user-home-add-post">Add Post</button>
                      <button className="user-home-dashprofile">Profile</button>
-                     <button className="user-home-out">Sign Out</button>
+                     <button className="user-home-out">Log Out</button>
                   </div>
 
                   <div className="user-home-input-dash">

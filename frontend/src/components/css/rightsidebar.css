@@ -1,56 +1,56 @@
 .rightcontainer {
-  width: 16rem;
-  position: relative;
-  background-color: var(--white);
-  height: max-content;
-  border-radius: var(--radius);
+   width: 18rem;
+   position: relative;
+   background-color: var(--white);
+   height: max-content;
+   border-radius: var(--radius);
 }
 
 .right-sidebar {
-  width: 100%;
-  padding: 0.5rem;
+   width: 100%;
+   padding: 0.5rem;
 }
 
 .right-sidebar-header {
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border-white);
+   padding-bottom: 0.5rem;
+   border-bottom: 1px solid var(--border-white);
 }
 
 .right-sidebar-h1 {
-  font-family: var(--poppins);
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-bottom: 0.3rem;
+   font-family: var(--poppins);
+   font-weight: 600;
+   text-transform: uppercase;
+   padding-bottom: 0.3rem;
 }
 
 .right-sidebar-desc {
-  font-size: 0.6rem;
-  color: var(--dark-color);
+   font-size: 0.6rem;
+   color: var(--dark-color);
 }
 
 .right-sidebar-content {
-  padding-top: 0.5rem;
+   padding-top: 0.5rem;
 }
 
 .right-sidebar-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .right-sidebar-text {
-  font-weight: 600;
-  font-size: 0.9rem;
+   font-weight: 600;
+   font-size: 0.9rem;
 }
 
 .right-sidebar-link {
-  font-family: var(--poppins);
-  font-weight: 600;
-  font-size: 0.6rem;
+   font-family: var(--poppins);
+   font-weight: 600;
+   font-size: 0.6rem;
 }
 
 .right-sidebar-img {
-  border-radius: 50%;
-  height: 25px;
-  width: 25px;
+   border-radius: 50%;
+   height: 25px;
+   width: 25px;
 }

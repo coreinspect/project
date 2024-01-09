@@ -1,0 +1,33 @@
+.coc-area {
+   flex: 1;
+   margin-bottom: 2rem;
+}
+
+.coc-content {
+   margin: 0 1.5rem;
+   background: var(--white);
+   border-radius: var(--radius);
+   padding: 0.5rem 1rem;
+}
+
+.coc-h1 {
+   font-size: 2rem;
+   text-align: center;
+   font-weight: 600;
+   padding: 1rem 0;
+}
+
+.coc-post {
+   margin-left: 0.8rem;
+}
+
+.coc-title {
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: 1rem;
+}
+
+.coc-consent {
+   padding-top: 2rem;
+   font-weight: 600;
+}
