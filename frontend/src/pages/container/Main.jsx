@@ -1,5 +1,4 @@
 import ArticleCard from "../../components/ArticleCard";
-
 import "./css/main.css";
 import "./css/responsiveness.css";
 
